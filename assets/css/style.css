@@ -1,0 +1,19 @@
+main {
+    height: 100vh;
+}
+
+img {
+    filter: brightness(50%);
+}
+
+.icons {
+    background-color: rgb(3, 3, 80);
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .icons {
+        flex-flow: column wrap;
+    }
+}
+
